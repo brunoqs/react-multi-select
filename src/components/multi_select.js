@@ -161,7 +161,7 @@ export class MultiSelect extends PureComponent {
               messages={messages}
               itemHeight={selectedItemHeight || itemHeight}
               height={height}
-              // unselectItems={unselectItems}
+              unselectItems={() => {}}
               selectedItemRenderer={selectedItemRenderer}
               noItemsRenderer={noItemsRenderer}
               withGrouping={withGrouping}
